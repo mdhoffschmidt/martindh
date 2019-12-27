@@ -39,4 +39,6 @@ Humans can in practice solve, easily and intuitively, a very large range of comp
 In the present work, the autonomous race car is controlled with a Learning Model Predictive Controller (LMPC). In this way, the racing objective is clearly defined and the constraints of the race car can explicitly be handled. Improving the performance of the controller can be achieved in two different ways. First, the repetitive aspect of racing on a circuit makes it possible to integrate additional knowledge on the task. By analogy, the more laps the race driver completes the better he knows the tricks to improve its lap time. Second, it is possible to identify a model of the car, while driving, to always improve the model that is provided to the controller. Which can be compared to the ability of the driver to improve the knowledge he has on the vehicle to acquire a better intuition on its dynamics. Finally, a curiosity cost is added to the objective function of the optimal controller to motivate the controller at improving its model.
 
 
+You can find the ressource here :
 
+[project_link](/files/project_4_martin_dhoffschmidt.pdf)

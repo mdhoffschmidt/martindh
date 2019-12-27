@@ -63,6 +63,10 @@ The aim of the present work is to build a 1-dimensional model which is able to p
 
 $$\int_{a}^{b} x^2 dx$$
 
+You can find the ressource here :
+
+[project_link](/files/project_2_martin_dhoffschmidt.pdf)
+
 # Ressources
 
 [1] E. Achenbach and E. Riensche. Methane/steam reforming kinetics for solid oxide fuel cells. Journal of Power Sources, 1994.

@@ -18,7 +18,7 @@ organizations:
   url: "https://www.illuin.tech/en/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Todos
+bio: Working on Deep Learning based Natural Language Processing at Illuin Technology.
 
 interests:
 - Deep Learning
@@ -28,13 +28,13 @@ interests:
 
 education:
   courses:
-  - course: MSc in Mechanical Engineering, Control systems and optimisation
+  - course: Master of Science in Mechanical Engineering, Control systems and Optimisation
     institution: The Swiss Federal Institute of Technology in Lausanne
     year: 2017
-  - course: Master Thesis. 
+  - course: Master Thesis
     institution: University of California Berkeley
     year: 2016
-  - course: BSc in Mechanical and Electrical Engineering
+  - course: Bachelor of Science in Mechanical and Electrical Engineering
     institution: École Polytechnique de Louvain-la-Neuve
     year: 2014
 
@@ -57,9 +57,9 @@ social:
   link: https://github.com/mdhoffschmidt
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "martin@dhoffschmidt.com"
