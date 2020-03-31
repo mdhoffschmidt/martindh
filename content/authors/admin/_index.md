@@ -20,23 +20,23 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Working on Deep Learning based Natural Language Processing at Illuin Technology.
 
-interests:
-- Deep Learning
-- Natural Language Processing
-- Distributed Energy Systems
-- Trees
+# interests:
+# - Deep Learning
+# - Natural Language Processing
+# - Distributed Energy Systems
+# - Trees
 
-education:
-  courses:
-  - course: Master of Science in Mechanical Engineering, Control systems and Optimisation
-    institution: The Swiss Federal Institute of Technology in Lausanne
-    year: 2017
-  - course: Master Thesis
-    institution: University of California Berkeley
-    year: 2016
-  - course: Bachelor of Science in Mechanical and Electrical Engineering
-    institution: École Polytechnique de Louvain-la-Neuve
-    year: 2014
+# education:
+#   courses:
+#   - course: Master of Science in Mechanical Engineering, Control systems and Optimisation
+#     institution: The Swiss Federal Institute of Technology in Lausanne
+#     year: 2017
+#   - course: Master Thesis
+#     institution: University of California Berkeley
+#     year: 2016
+#   - course: Bachelor of Science in Mechanical and Electrical Engineering
+#     institution: École Polytechnique de Louvain-la-Neuve
+#     year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -71,4 +71,13 @@ user_groups:
 - Visitors
 ---
 
-I graduated with a Master Degree in Mechanical Engineering from École Polytechnique Fédérale de Lausanne with a major in Control Systems and Optimisation and a minor in Energy. During my academic projects, I have gained know-how in various fields such as Real Time Optimisation of energy systems, Distributed Optimisation and energy system modelling. Furthemore, I worked in the field of Machine Learning and Deep Learning during my Master Thesis at UC Berkeley.
+I am Lead Data Scientist at ILLUIN Technology, Paris.
+We bridge the gap between applied research and industry business challenges.
+We strive to understand, implement and put into production cutting-edge AI solutions in the Natural Language Processing field.
+
+Previously, I gained experience in the field of real time and distributed optimisation of energy systems working in collaboration with École Polytechnique Federale de Lausanne. I have also co-founded a Deep Learning based Crypto-currency fund to develop new approaches of algorithmic trading.
+
+I graduated with a Master Degree in Mechanical Engineering from École Polytechnique Fédérale de Lausanne with a major in Control Systems and Optimisation and a minor in Energy. I accomplished my Master Thesis at UC Berkeley in Deep Learning for curiosity driven agents.
+
+
+

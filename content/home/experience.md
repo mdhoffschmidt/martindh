@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Cofounder"
+  title = "Machine Learning Engineer"
   company = "Mnemex"
   company_url = "https://www.illuin.tech/en/"
   location = "Paris"
