@@ -1,0 +1,91 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Tailwind imports */
+@tailwind base;
+
+
+@layer base {
+
+    body {
+      @apply min-h-screen flex flex-col
+    }
+
+    header {
+      @apply min-w-full text-white
+    }
+
+    main {
+      @apply min-w-full flex-grow
+    }
+
+    footer {
+      @apply min-w-full
+    }
+
+    h1 {
+      @apply text-4xl text-left text-gray-600 font-semibold my-8 font-sans
+    }
+    
+    h2 {
+      @apply text-2xl text-left text-gray-600 font-bold my-8 font-sans
+    }
+
+    h3 {
+      @apply text-xl text-left text-gray-600 font-bold my-4 font-sans
+    }
+
+    h4 {
+      @apply text-xl text-left text-gray-600 font-normal my-4 font-sans
+    }
+    
+    p {
+        @apply text-base text-left text-gray-700 font-normal my-2 font-sans
+    } 
+
+    .divHeader {
+      @apply mx-auto max-w-screen-lg
+    }
+
+    .divMain {
+      @apply mx-auto max-w-screen-md my-16
+    }
+
+    .divFooter {
+      @apply mx-auto max-w-screen-lg
+    }
+
+    .navTitle {
+      @apply text-lg text-left text-gray-600 font-semibold font-sans
+    }
+
+    .navItem {
+      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-teal-50 hover:text-teal-900
+    }
+    
+    .footerCopyright {
+      @apply text-sm text-left text-gray-500 font-medium font-sans hover:text-black
+    }
+
+    .footerItem {
+      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-teal-50 hover:text-teal-900
+    }
+    
+
+}
+
+@tailwind components;
+@tailwind utilities;
+
