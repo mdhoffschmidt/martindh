@@ -7,7 +7,7 @@ export default function PublicationItem(props) {
 
     let pdfLink = null;
     if (props.pdfLink) {
-        pdfLink = <div className="px-2 border border-solid border-gray-50 rounded-lg group-hover:bg-teal-900 group-hover:text-white">
+        pdfLink = <div className="px-4 border border-solid border-gray-50 rounded-lg group-hover:bg-gradient-to-tr from-indigo-900 to-indigo-100 group-hover:text-white">
             <a href={ props.pdfLink } target="_blank" rel="noopener noreferrer">
                 Paper
             </a>
@@ -25,7 +25,10 @@ export default function PublicationItem(props) {
 
     
     return (
-        <div className="my-2 pl-4 pr-8 py-4 flex flex-col hover:bg-teal-50 rounded-lg group" onClick={() => setOpen(!open)}>
+        <div 
+            className="my-2 pl-4 pr-8 py-4 flex flex-col rounded-lg  hover:bg-gradient-to-br from-teal-50 to-indigo-50 group" 
+            onClick={() => setOpen(!open)}
+        >
 
             <div className="my-2 flex flex-col justify-start items-start">
 

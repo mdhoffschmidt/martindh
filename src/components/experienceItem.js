@@ -15,7 +15,7 @@ export default function ExperienceItem(props) {
     }
 
     return (
-        <div className="my-2 pl-4 pr-8 py-4 flex flex-col hover:bg-teal-50 rounded-lg group" onClick={() => setOpen(!open)}>
+        <div className="my-2 pl-4 pr-8 py-4 flex flex-col hover:bg-gradient-to-br from-teal-50 to-indigo-50 rounded-lg group" onClick={() => setOpen(!open)}>
             
             <div className="my-2 flex flex-col justify-start items-start">
                 
@@ -24,7 +24,7 @@ export default function ExperienceItem(props) {
                 </div>
                 
                 <a href={ props.companyLink } target="_blank" rel="noopener noreferrer">
-                    <div className="text-lg text-gray-600 font-medium group-hover:text-teal-900">
+                    <div className="text-lg text-gray-600 font-medium group-hover:text-teal-900 group-hover:font-semibold">
                         { props.company }
                     </div>
                 </a>
@@ -33,7 +33,7 @@ export default function ExperienceItem(props) {
 
             <div className="my-2 flex flex-row justify-between items-start">
                 
-                <div className="text-sm text-gray-600 font-normal">
+                <div className="italic text-sm text-gray-600 font-normal">
                     { props.period }
                 </div>
 

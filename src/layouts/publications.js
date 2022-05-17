@@ -1,4 +1,4 @@
-import PublicationItem from "./publicationItem"
+import PublicationItem from "../components/publicationItem"
 
 
 export default function Publications() {

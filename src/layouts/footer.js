@@ -1,12 +1,4 @@
-function FooterLink(props) {
-    return (
-        <a href={ props.href } target="_blank" rel="noopener noreferrer">
-            <div className="footerItem">
-                { props.text }
-            </div>
-        </a>
-    );
-}
+import FooterItem from "../components/footerItem";
 
 export default function Footer() {
     return (
@@ -22,17 +14,17 @@ export default function Footer() {
 
             <div className="flex flex-row justify-between items-center gap-4">
 
-                <FooterLink 
+                <FooterItem 
                     href="https://www.linkedin.com/in/martin-dhoffschmidt/"
                     text="LinkedIn"
                 />
 
-                <FooterLink 
+                <FooterItem 
                     href="https://github.com/mdhoffschmidt"
                     text="Github"
                 />
 
-                <FooterLink 
+                <FooterItem 
                     href="https://twitter.com/mdhoffschmidt"
                     text="Twitter"
                 />

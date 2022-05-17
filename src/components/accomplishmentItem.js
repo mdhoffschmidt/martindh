@@ -1,6 +1,6 @@
 export default function AccomplishmentItem(props) {
     return (
-        <div className="my-2 flex flex-col hover:bg-teal-50 rounded-lg pl-4 pr-8 py-4 group">
+        <div className="my-2 flex flex-col hover:bg-gradient-to-tr from-teal-50 to-indigo-50 rounded-lg pl-4 pr-8 py-4 group">
             
             <div className="my-1 flex flex-col justify-start items-start">
                 

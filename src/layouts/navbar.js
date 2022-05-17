@@ -1,46 +1,36 @@
-function NavLink(props) {
-    return (
-        <a href={ props.href }>
-            <div className="navItem">
-                { props.text }
-            </div>
-        </a>
-    )
-}
+
+import NavbarLink from "../components/navbarItem";
+import NavbarTitle from "../components/navbarTitle";
 
 export default function Navbar() {
     return (
         <nav className="h-24 flex flex-row justify-between items-center">
             
-            <a href="/">
-                <div className="navTitle">
-                    Martin dH
-                </div>
-            </a>
+            <NavbarTitle title="MartindH" />
 
             <div className="flex flex-row justify between items-center gap-4">
 
-                <NavLink 
+                <NavbarLink 
                     href="/" 
                     text="About" 
                 />
 
-                <NavLink 
+                <NavbarLink 
                     href="/articles" 
                     text="Articles" 
                 />
 
-                <NavLink 
+                <NavbarLink 
                     href="/publications" 
                     text="Publications" 
                 />
 
-                <NavLink
+                <NavbarLink
                     href="/experiences"
                     text="Experiences"
                 />
 
-                <NavLink
+                <NavbarLink
                     href="/contact"
                     text="Contact"
                 />

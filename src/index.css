@@ -52,8 +52,44 @@ code {
     }
     
     p {
-        @apply text-base text-left text-gray-700 font-normal my-2 font-sans
+      @apply text-base text-left text-gray-700 font-normal my-2 font-sans
     } 
+
+    ol {
+      @apply text-base text-left text-gray-700 font-normal mx-8 my-2 font-sans list-decimal
+    }
+
+    ul {
+      @apply text-base text-left text-gray-700 font-normal mx-8 my-2 font-sans list-disc
+    }
+
+    li {
+      @apply text-base
+    }
+
+    table {
+      @apply my-2 border border-gray-100 rounded-lg divide-y divide-gray-100 overflow-hidden ring-2 ring-gray-100
+    }
+
+    thead {
+      @apply bg-gray-50
+    }
+
+    tbody {
+      @apply divide-y divide-gray-100
+    }
+
+    th {
+      @apply py-2 px-2 text-sm text-center text-gray-400 font-semibold align-bottom
+    }
+
+    td {
+      @apply py-2 px-2 text-sm text-left text-gray-600 font-normal align-top
+    }
+
+    td li {
+      @apply text-xs text-left text-gray-600 font-normal
+    }
 
     .divHeader {
       @apply mx-auto max-w-screen-lg
@@ -68,11 +104,11 @@ code {
     }
 
     .navTitle {
-      @apply text-lg text-left text-gray-600 font-semibold font-sans
+      @apply px-6 py-1 text-lg text-left text-gray-600 font-semibold font-sans bg-gradient-to-br from-teal-100 to-indigo-100 hover:to-indigo-200 rounded-lg
     }
 
     .navItem {
-      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-teal-50 hover:text-teal-900
+      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-teal-50 to-indigo-50 hover:text-teal-900
     }
     
     .footerCopyright {
@@ -80,7 +116,7 @@ code {
     }
 
     .footerItem {
-      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-teal-50 hover:text-teal-900
+      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-tl from-teal-50 to-gray-50  hover:text-teal-900
     }
     
 

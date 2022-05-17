@@ -1,5 +1,5 @@
-import AccomplishmentItem from "./accomplishmentItem";
-import ExperienceItem from "./experienceItem";
+import AccomplishmentItem from "../components/accomplishmentItem";
+import ExperienceItem from "../components/experienceItem";
 
 
 export default function Experiences () {
