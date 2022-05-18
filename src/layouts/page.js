@@ -15,7 +15,7 @@ function HorizontalDivider() {
 export default function Page(props) {
 
     return (
-        <>
+        <div className="customBody">
 
             <header>
                 <div className="divHeader">
@@ -39,6 +39,6 @@ export default function Page(props) {
                 </div>
             </footer>
 
-        </>
+        </div>
     )
 }

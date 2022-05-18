@@ -19,7 +19,7 @@ code {
 
 @layer base {
 
-    body {
+    .customBody {
       @apply min-h-screen flex flex-col
     }
 
