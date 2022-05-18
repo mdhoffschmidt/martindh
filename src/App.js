@@ -17,9 +17,9 @@ function App() {
   const article_2 = <Article2/>;
 
   const contact = <Contact/>;
-  const experiences = <Experiences/> ;
+  const experiences = <Experiences/>;
   const home = <Home/>;
-  const publications = <Publications/>
+  const publications = <Publications/>;
 
   return (
     <div className="App">
