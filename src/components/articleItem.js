@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import TagItem from "./tagItem";
 
 export default function ArticleItem(props) {
 
@@ -31,9 +32,7 @@ export default function ArticleItem(props) {
                 <div className="my-2 flex flex-row justify-start items-center">
                     { props.tags.map((item, index) => {
                         return (
-                            <div key={index} className="px-2 py-1 border border-gray-100 rounded-lg text-sm text-gray-500 font-semibold group-hover:bg-gradient-to-tr from-indigo-900 to-indigo-50 group-hover:text-white"> 
-                                {item} 
-                            </div>
+                            <TagItem key={index} text={ item} />
                         );
                     })}
                 </div>

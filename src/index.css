@@ -104,11 +104,11 @@ code {
     }
 
     .navTitle {
-      @apply px-6 py-1 text-lg text-left text-gray-600 font-semibold font-sans bg-gradient-to-br from-teal-100 to-indigo-100 hover:to-indigo-200 rounded-lg
+      @apply px-6 py-1 text-lg text-left text-gray-600 font-semibold font-sans bg-gradient-to-br from-indigo-50 to-orange-50 hover:to-indigo-100 rounded-lg hover:text-black
     }
 
     .navItem {
-      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-teal-50 to-indigo-50 hover:text-teal-900
+      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-indigo-50 to-transparent hover:text-black
     }
     
     .footerCopyright {
@@ -116,12 +116,10 @@ code {
     }
 
     .footerItem {
-      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-tl from-teal-50 to-gray-50  hover:text-teal-900
+      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-indigo-50 to-transparent  hover:text-black
     }
     
-
 }
 
 @tailwind components;
 @tailwind utilities;
-

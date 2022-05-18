@@ -66,6 +66,75 @@ export default function Article1 () {
                 </li>
             </ol>
 
+            <table className="my-2">
+                <thead>
+                    <tr>
+                        <th> Challenges </th>
+                        <th> Description </th>
+                        <th> Exemples </th>
+                        <th> Metrics </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Maintenance
+                        </td>
+                        <td>
+                            Large-scale data maintenance is challenging, as it is the case for code for Software Engineering
+                        </td>
+                        <td>
+                            Data versioning, documentation, metadata management, storage, etc.
+                        </td>
+                        <td>
+                            Storage size, number of duplicates, others?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Reliability
+                        </td>
+                        <td>
+                            Need for reliable data processing pipelines, data cleaning and transformation tools
+                        </td>
+                        <td>
+                            Data consistency, replicability, transformation, collection, labelling, etc.
+                        </td>
+                        <td>
+                            Number of samples, others?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Validity
+                        </td>
+                        <td>
+                            To what extend the data acutally captures information that a model can learn.
+                        </td>
+                        <td>
+                            Data accuracy, collection guidelines, etc.
+                        </td>
+                        <td>
+                            Model score, Human Score, others?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fidelity
+                        </td>
+                        <td>
+                            Make sure that the data is coherent with the real world.
+                        </td>
+                        <td>
+                            Training dataset accurately reflects production data
+                        </td>
+                        <td>
+                            Model shift, others ?
+                        </td>
+                    </tr>                                        
+                </tbody>
+            </table>
+
             <h2>
                 Impact of the data challenges for the succes of Machine Learning projects
             </h2>

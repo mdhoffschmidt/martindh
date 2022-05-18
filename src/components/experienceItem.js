@@ -15,7 +15,7 @@ export default function ExperienceItem(props) {
     }
 
     return (
-        <div className="my-2 pl-4 pr-8 py-4 flex flex-col border border-gray-50 hover:bg-gradient-to-br from-teal-50 to-indigo-50 rounded-lg group" onClick={() => setOpen(!open)}>
+        <div className="my-2 pl-4 pr-8 py-4 flex flex-col border border-gray-50 hover:bg-gradient-to-br from-indigo-50 to-transparent rounded-lg group" onClick={() => setOpen(!open)}>
             
             <div className="my-2 flex flex-col justify-start items-start">
                 
