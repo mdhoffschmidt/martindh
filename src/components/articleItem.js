@@ -4,7 +4,7 @@ export default function ArticleItem(props) {
 
     return (
         <Link to={ props.href }>
-            <div className="my-2 pl-4 pr-8 py-4 flex flex-col hover:bg-gradient-to-br from-teal-50 to-indigo-50 rounded-lg group">
+            <div className="my-2 pl-4 pr-8 py-4 border border-gray-50  flex flex-col hover:bg-gradient-to-br from-teal-50 to-indigo-50 rounded-lg group">
                 
                 <div className="my-2 flex flex-col justify-start items-start">
                     

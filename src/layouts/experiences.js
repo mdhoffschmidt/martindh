@@ -61,7 +61,7 @@ export default function Experiences () {
                     title="Research Scientist"
                     company="Ecole Polytechnique Fédérale de Lausanne"
                     companyLink="https://www.epfl.ch/labs/gem/"
-                    period="Mar 2017 – Dec 2017"
+                    period="Jan 2017 – Dec 2017"
                     location="Lausanne, Switzerland"
                     description="
                     Fuel Cells have a huge potential for energy production and storage applications. The GEM Group focuses on Research and Development of Solid Oxide Fuel Cells and Electrolysers and I had the chance to work with them on several very interesing topics
@@ -84,7 +84,7 @@ export default function Experiences () {
 
                 <ExperienceItem
                     title="Master Student"
-                    company="Ecole Polytechnique Fédérale de Lausanne"
+                    company="The Swiss Federal Institute of Technology in Lausanne"
                     companyLink="https://www.epfl.ch/en/"
                     period="Sep 2014 – Sep 2017"
                     location="Lausanne, Switzerland"
@@ -98,7 +98,7 @@ export default function Experiences () {
 
                 <ExperienceItem
                     title="Bachelor Student"
-                    company="Ecole Polytechnique Fédérale de Lausanne"
+                    company="École Polytechnique de Louvain-la-Neuve"
                     companyLink="https://uclouvain.be/en/faculties/epl"
                     period="Sep 2011 – Sep 2014"
                     location="Louvain-la-Neuve, Belgium"
