@@ -23,25 +23,25 @@ export default function PublicationItem(props) {
     
     return (
         <div 
-            className="my-2 pl-4 pr-8 py-4 flex flex-col rounded-lg hover:bg-gradient-to-br from-indigo-50 to-transparent group border border-gray-50" 
+            className="articleItem group" 
             onClick={() => setOpen(!open)}
         >
 
             <div className="my-2 flex flex-col justify-start items-start">
                 
-                <div className="text-xl text-gray-500 font-semibold group-hover:text-indigo-900">
+                <div className="text-xl text-gray-300 font-semibold group-hover:text-white">
                     { props.title }
                 </div>
                 
             </div>
 
-            <div className="my-2 flex flex-col justify-start items-start">
+            <div className="my-2 flex flex-col justify-start items-start text-gray-300">
 
                 <div>
                     { props.authors }
                 </div>
 
-                <div>
+                <div className="italic">
                     { props.date }
                 </div>
 

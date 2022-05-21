@@ -5,7 +5,7 @@ export default function Publications() {
     return (
         <div className="h-max">
 
-            <div flex flex-col justify-start items-start gap-10>
+            <div flex flex-col justify-start items-start>
 
                 <h1>
                     Publications

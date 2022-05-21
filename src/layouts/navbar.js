@@ -20,15 +20,16 @@ export default function Navbar() {
                     text="Articles" 
                 />
 
+                <NavbarLink
+                    href="/experiences"
+                    text="Experiences"
+                />
+                
                 <NavbarLink 
                     href="/publications" 
                     text="Publications" 
                 />
 
-                <NavbarLink
-                    href="/experiences"
-                    text="Experiences"
-                />
 
                 <NavbarLink
                     href="/contact"

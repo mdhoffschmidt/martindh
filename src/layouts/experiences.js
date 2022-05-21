@@ -13,7 +13,7 @@ export default function Experiences () {
                 Professional
             </h2>
 
-            <div className="flex flex-col justify-start items-stretch">
+            <div flex flex-col justify-start items-start>
 
                 <ExperienceItem
                     title="Entrepreneur in Residence"
@@ -55,7 +55,7 @@ export default function Experiences () {
                 Academic
             </h2>
 
-            <div className="flex flex-col justify-start items-stretch">
+            <div flex flex-col justify-start items-start>
 
                 <ExperienceItem
                     title="Research Scientist"
@@ -116,7 +116,7 @@ export default function Experiences () {
                 Accomplishment
             </h2>
 
-            <div className="flex flex-col justify-start items-stretch">
+            <div flex flex-col justify-start items-start>
 
                 <AccomplishmentItem
                     title="Deep Learning Specialisation"

@@ -23,7 +23,7 @@ export default function Page(props) {
                 </div>                     
             </header>
 
-            <HorizontalDivider/>
+            {/* <HorizontalDivider/> */}
 
             <main>
                 <div className="divMain">
@@ -31,7 +31,7 @@ export default function Page(props) {
                 </div>
             </main>
 
-            <HorizontalDivider/>
+            {/* <HorizontalDivider/> */}
 
             <footer>
                 <div className="divFooter">

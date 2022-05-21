@@ -8,7 +8,7 @@ export default function Articles () {
                 Articles
             </h1>
 
-            <div flex flex-col justify-start items-start gap-10>
+            <div flex flex-col justify-start items-start>
 
                 <ArticleItem
                     href="/articles/article-2"
@@ -25,7 +25,7 @@ export default function Articles () {
 
                 <ArticleItem
                     href="/articles/article-1"
-                    title="Data Challenges : Part 1"
+                    title="Data Cascades"
                     date="2021 December 23"
                     abstract="
                     A few months ago, Andrew NG initiated the Data Centric AI vs. Model Centric AI movement.

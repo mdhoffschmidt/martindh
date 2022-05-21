@@ -20,11 +20,11 @@ code {
 @layer base {
 
     .customBody {
-      @apply min-h-screen flex flex-col
+      @apply min-h-screen flex flex-col bg-gradient-to-b from-black to-zinc-900
     }
 
     header {
-      @apply min-w-full text-white
+      @apply min-w-full
     }
 
     main {
@@ -32,93 +32,234 @@ code {
     }
 
     footer {
-      @apply min-w-full
+      @apply min-w-full bg-zinc-900
     }
 
     h1 {
-      @apply text-4xl text-left text-gray-600 font-semibold my-8 font-sans
+      @apply
+      my-8
+      text-4xl
+      text-slate-200
+      text-left
+      font-semibold
+      font-sans
     }
     
     h2 {
-      @apply text-2xl text-left text-gray-600 font-bold my-8 font-sans
+      @apply
+      my-8
+      text-2xl
+      text-slate-200
+      text-left
+      font-semibold
+      font-sans
     }
 
     h3 {
-      @apply text-xl text-left text-gray-600 font-bold my-4 font-sans
+      @apply
+      my-4
+      text-xl
+      text-gray-300 
+      text-left 
+      font-semibold 
+      font-sans
     }
 
     h4 {
-      @apply text-xl text-left text-gray-600 font-normal my-4 font-sans
+      @apply 
+      my-4
+      text-xl 
+      text-slate-200
+      text-left 
+      font-normal
+      font-sans
     }
     
     p {
-      @apply text-base text-left text-gray-700 font-normal my-2 font-sans
+      @apply 
+      my-2 
+      text-base 
+      text-slate-200
+      text-justify 
+      font-normal
+      font-sans
     } 
 
     ol {
-      @apply text-base text-left text-gray-700 font-normal mx-8 my-2 font-sans list-decimal
+      @apply 
+      mx-8
+      my-2 
+      text-base 
+      text-slate-200 
+      text-left 
+      font-normal 
+      font-sans 
+      list-decimal
     }
 
     ul {
-      @apply text-base text-left text-gray-700 font-normal mx-8 my-2 font-sans list-disc
+      @apply 
+      mx-8 
+      my-2 
+      text-base 
+      text-left 
+      text-slate-200 
+      font-normal 
+      font-sans 
+      list-disc
     }
 
     li {
-      @apply text-base
+      @apply 
+      text-base
     }
 
     table {
-      @apply my-2 border border-gray-100 rounded-lg divide-y divide-gray-100 overflow-hidden ring-2 ring-gray-100
+      @apply 
+      my-8 
+      border 
+      border-2
+      border-slate-800
+      rounded-lg
+      divide-y 
+      divide-slate-800
+      /* overflow-hidden */
+      /* ring-2 */
+      /* ring-gray-100 */
     }
 
     thead {
-      @apply bg-gray-50
+      @apply 
+      bg-gray-800
     }
 
     tbody {
-      @apply divide-y divide-gray-100
+      @apply
+      divide-y
+      divide-gray-800
     }
 
     th {
-      @apply py-2 px-2 text-sm text-center text-gray-400 font-semibold align-bottom
+      @apply 
+      py-2 
+      px-2 
+      text-sm 
+      text-gray-300
+      text-center 
+      font-semibold 
+      align-bottom
     }
 
     td {
-      @apply py-2 px-2 text-sm text-left text-gray-600 font-normal align-top
+      @apply 
+      py-2 
+      px-2 
+      text-sm 
+      text-gray-300
+      text-left 
+      font-normal 
+      align-top
     }
 
     td li {
-      @apply text-xs text-left text-gray-600 font-normal
+      @apply 
+      text-xs 
+      text-left 
+      text-gray-300 
+      font-normal
     }
 
     .divHeader {
-      @apply mx-auto max-w-screen-lg
+      @apply 
+      mx-auto 
+      max-w-screen-lg
     }
 
     .divMain {
-      @apply mx-auto max-w-screen-md my-16
+      @apply 
+      mx-auto 
+      max-w-screen-md 
+      my-16
     }
 
     .divFooter {
-      @apply mx-auto max-w-screen-lg
+      @apply 
+      mx-auto 
+      max-w-screen-lg
     }
 
     .navTitle {
-      @apply px-6 py-1 text-lg text-left text-gray-600 font-semibold font-sans bg-gradient-to-br from-indigo-50 to-orange-50 hover:to-indigo-100 rounded-lg hover:text-black
+      @apply 
+      px-6 
+      py-1
+      text-lg 
+      text-gray-300 
+      text-left 
+      font-semibold 
+      font-sans 
+      rounded-lg 
+      hover:text-white
+      /* bg-gradient-to-br  */
+      /* from-indigo-50  */
+      /* to-orange-50  */
+      /* hover:to-indigo-100  */
     }
 
     .navItem {
-      @apply text-base text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-indigo-50 to-transparent hover:text-black
+      @apply 
+      px-4 
+      py-1 
+      text-base 
+      text-gray-300
+      text-left 
+      font-medium 
+      font-sans
+      hover:text-white
+      /* hover:bg-gradient-to-br from-indigo-50 to-transparent hover:text-black */
     }
     
     .footerCopyright {
-      @apply text-sm text-left text-gray-500 font-medium font-sans hover:text-black
+      @apply 
+      text-sm 
+      text-left 
+      text-gray-300 
+      font-medium 
+      font-sans 
+      hover:text-white
     }
 
     .footerItem {
-      @apply text-sm text-left text-gray-500 font-medium font-sans px-4 py-1 rounded-lg hover:bg-gradient-to-br from-indigo-50 to-transparent  hover:text-black
+      @apply 
+      px-4 
+      py-1 
+      text-sm 
+      text-gray-300
+      text-left
+      font-medium
+      font-sans
+      hover:text-white
+      /* hover:bg-gradient-to-br from-indigo-50 to-transparent   */
     }
-    
+ 
+    .articleItem {
+      @apply
+      my-4
+      pl-4 
+      pr-8 
+      py-4 
+      flex 
+      flex-col
+      bg-zinc-800
+      /* bg-zinck-900 */
+      /* border */
+      /* border-2 */
+      /* border-cyan-500 */
+      /* bg-gradient-to-br */
+      /* from-purple-500  */
+      /* to-purple-500  */
+      rounded-md
+    }
+
 }
 
 @tailwind components;
