@@ -1,4 +1,6 @@
 import FooterItem from "../components/footerItem";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
+
 
 export default function Footer() {
     return (
@@ -16,17 +18,20 @@ export default function Footer() {
 
                 <FooterItem 
                     href="https://www.linkedin.com/in/martin-dhoffschmidt/"
-                    text="LinkedIn"
+                    text={ null }
+                    icon={ <BsLinkedin className="text-lg text-gray-300 group-hover:text-white"/> }
                 />
 
                 <FooterItem 
                     href="https://github.com/mdhoffschmidt"
-                    text="Github"
+                    text={ null }
+                    icon={ <BsGithub className="text-lg text-gray-300 group-hover:text-white" /> }
                 />
 
                 <FooterItem 
                     href="https://twitter.com/mdhoffschmidt"
-                    text="Twitter"
+                    text={ null }
+                    icon={ <BsTwitter className="text-lg text-gray-300 group-hover:text-white" /> }
                 />
 
             </div>

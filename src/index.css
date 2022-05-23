@@ -119,10 +119,10 @@ code {
       my-8 
       border 
       border-2
-      border-slate-800
+      border-zinc-900
       rounded-lg
       divide-y 
-      divide-slate-800
+      divide-zinc-900
       /* overflow-hidden */
       /* ring-2 */
       /* ring-gray-100 */
@@ -130,13 +130,13 @@ code {
 
     thead {
       @apply 
-      bg-gray-800
+      bg-zinc-900
     }
 
     tbody {
       @apply
       divide-y
-      divide-gray-800
+      divide-zinc-900
     }
 
     th {
