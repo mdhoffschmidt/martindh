@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="h-24 flex flex-row justify-between items-center bottom-0">
 
             <div className="footerCopyright">
-                ©martindh
+                Martin dH © 2022
             </div>
 
             <div className="flex flex-grow">
@@ -18,20 +18,20 @@ export default function Footer() {
 
                 <FooterItem 
                     href="https://www.linkedin.com/in/martin-dhoffschmidt/"
-                    text={ null }
                     icon={ <BsLinkedin className="text-lg text-gray-300 group-hover:text-white"/> }
+                    text={ null }
                 />
 
                 <FooterItem 
                     href="https://github.com/mdhoffschmidt"
-                    text={ null }
                     icon={ <BsGithub className="text-lg text-gray-300 group-hover:text-white" /> }
+                    text={ null }
                 />
 
                 <FooterItem 
                     href="https://twitter.com/mdhoffschmidt"
-                    text={ null }
                     icon={ <BsTwitter className="text-lg text-gray-300 group-hover:text-white" /> }
+                    text={ null }
                 />
 
             </div>

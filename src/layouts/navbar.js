@@ -6,18 +6,18 @@ export default function Navbar() {
     return (
         <nav className="h-24 flex flex-row justify-between items-center">
             
-            <NavbarTitle title="MartindH" />
+            <NavbarTitle title="Martin dH" />
 
             <div className="flex flex-row justify between items-center gap-4">
 
                 <NavbarLink 
-                    href="/" 
-                    text="About" 
+                    href="/"
+                    text="About"
                 />
 
                 <NavbarLink 
-                    href="/articles" 
-                    text="Articles" 
+                    href="/articles"
+                    text="Articles"
                 />
 
                 <NavbarLink
@@ -26,8 +26,8 @@ export default function Navbar() {
                 />
                 
                 <NavbarLink 
-                    href="/publications" 
-                    text="Publications" 
+                    href="/publications"
+                    text="Publications"
                 />
 
 
