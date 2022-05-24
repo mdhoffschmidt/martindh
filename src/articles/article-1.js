@@ -2,7 +2,7 @@ export default function Article1 () {
     return (
         <div>
 
-            <h1> Data Cascades </h1>
+            <h1> Data Challenges: Part 1 </h1>
 
             <h2> 1. Introduction </h2>
 

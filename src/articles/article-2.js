@@ -3,7 +3,7 @@ export default function Article2 () {
         <div>
 
             <h1> 
-                Data Challenges : Part 2
+                Data Challenges: Part 2
             </h1>
 
             <h2>

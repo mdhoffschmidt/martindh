@@ -12,28 +12,33 @@ export default function Articles () {
 
                 <ArticleItem
                     href="/articles/article-2"
-                    title="Data Challenges : Part 2"
+                    title="Data Challenges: Part 2"
                     date="2022 January 19"
                     abstract="
                     Adopting a Data Centric approach to a Machine Learning project will probably leave you wondering what steps will lead you there. 
                     Improving the data rather than the model seems quite obvious since everyone knows that the garbage in yields garbage out. 
                     The previous article discussed the different challenges that must be overcome to reach Data Excellence. 
-                    The goal was to formalize what are the data challenges a Data Scientist might encounter and what impact they can have on a Machine Learning project.
+                    The goal was to formalize what are the data challenges a Data Scientist might encounter and what impact they can have on a Machine Learning project. 
                     "
                     tags={["Data Science"]}
                 />
 
                 <ArticleItem
                     href="/articles/article-1"
-                    title="Data Cascades"
+                    title="Data Challenges: Part 1"
                     date="2021 December 23"
                     abstract="
-                    A few months ago, Andrew NG initiated the Data Centric AI vs. Model Centric AI movement.
-                    The idea is simple: to improve the performance of a model on a particular task, he suggests iterating on the data rather than on the model.
-                    However, iterating on the data can mean many things.
-                    Where some choices are sometimes made intuitively, a precise and technically rigorous methodology is required. 
+                    A few months ago, Andrew Ng initiated the Data Centric AI movement.
+                    He suggests that to improve the performance of a model on a given task improving the dataset will ultimately lead to better results than iterating on the model itself.
+                    While it seems obvious that better data leads to better models, improving the data can remains vague.
+                    Where some choices are sometimes made intuitively, a precise and technically rigorous methodology is required.
                     This can lead to errors in replicability, consistency, dataset versioning, etc.
-                    So, even before being able to iterate on the data, it is important to have a data pipeline that meets certain criteria of excellence and this is precisely the purpose of this document.
+                    I questionned few of my data scientists peers on the topic.
+                    According to them Data Science is an Art. 
+                    It is clear that intuition and practice matter in the field.
+                    Nevertheless I think a lot can be learned from Data Engineers to improve the strentgh and quality of data science projects.
+                    Defining data excellence is difficult.
+                    The purpose of the present document is therefore to help the reader to understand more clearly the traps to avoid to ensure successful project outcomes.
                     "
                     tags={["Data Science"]}
                 />
