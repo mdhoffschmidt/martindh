@@ -1,8 +1,11 @@
 
 import NavbarLink from "../components/navbarItem";
 import NavbarTitle from "../components/navbarTitle";
+import DarkModeButton from "../components/darkModeButton";
+
 
 export default function Navbar() {
+
     return (
         <nav className="h-24 flex flex-row justify-between items-center">
             
@@ -35,6 +38,8 @@ export default function Navbar() {
                     href="/contact"
                     text="Contact"
                 />
+
+                <DarkModeButton/>
 
             </div>
 

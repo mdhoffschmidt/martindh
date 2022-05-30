@@ -20,7 +20,11 @@ code {
 @layer base {
 
     .customBody {
-      @apply min-h-screen flex flex-col bg-gradient-to-b from-black to-zinc-900
+      @apply 
+      min-h-screen 
+      bg-white dark:bg-gradient-to-b from-black to-zinc-900
+      flex 
+      flex-col
     }
 
     header {
@@ -32,14 +36,17 @@ code {
     }
 
     footer {
-      @apply min-w-full bg-zinc-900
+      @apply 
+      min-w-full 
+      bg-white
+      dark:bg-zinc-900
     }
 
     h1 {
       @apply
       my-8
       text-4xl
-      text-slate-200
+      text-gray-700 dark:text-gray-200
       text-left
       font-semibold
       font-sans
@@ -49,7 +56,7 @@ code {
       @apply
       my-8
       text-2xl
-      text-slate-200
+      text-gray-700 dark:text-gray-200
       text-left
       font-semibold
       font-sans
@@ -59,7 +66,7 @@ code {
       @apply
       my-4
       text-xl
-      text-gray-300 
+      text-gray-700 dark:text-gray-200 
       text-left 
       font-semibold 
       font-sans
@@ -69,8 +76,8 @@ code {
       @apply 
       my-4
       text-xl 
-      text-slate-200
-      text-left 
+      text-gray-700 dark:text-gray-200
+      text-left
       font-normal
       font-sans
     }
@@ -79,7 +86,7 @@ code {
       @apply 
       my-2 
       text-base 
-      text-slate-200
+      text-gray-700 dark:text-gray-200
       text-justify 
       font-normal
       font-sans
@@ -90,7 +97,7 @@ code {
       mx-8
       my-2 
       text-base 
-      text-slate-200 
+      text-gray-700 dark:text-gray-200
       text-left 
       font-normal 
       font-sans 
@@ -103,7 +110,7 @@ code {
       my-2 
       text-base 
       text-left 
-      text-slate-200 
+      text-gray-700 dark:text-gray-200
       font-normal 
       font-sans 
       list-disc
@@ -144,7 +151,7 @@ code {
       py-2 
       px-2 
       text-sm 
-      text-gray-300
+      text-gray-700 dark:text-gray-300
       text-center 
       font-semibold 
       align-bottom
@@ -155,7 +162,7 @@ code {
       py-2 
       px-2 
       text-sm 
-      text-gray-300
+      text-gray-700 dark:text-gray-300
       text-left 
       font-normal 
       align-top
@@ -165,7 +172,7 @@ code {
       @apply 
       text-xs 
       text-left 
-      text-gray-300 
+      text-gray-700 dark:text-gray-300 
       font-normal
     }
 
@@ -193,7 +200,7 @@ code {
       px-6 
       py-1
       text-lg 
-      text-gray-300 
+      text-gray-700 dark:text-gray-300
       text-left 
       font-semibold 
       font-sans 
@@ -210,11 +217,11 @@ code {
       px-4 
       py-1 
       text-base 
-      text-gray-300
+      text-gray-700 dark:text-gray-300
       text-left 
       font-medium 
       font-sans
-      hover:text-white
+      hover:text-black dark:hover:text-white
       /* hover:bg-gradient-to-br from-indigo-50 to-transparent hover:text-black */
     }
     
@@ -222,10 +229,10 @@ code {
       @apply 
       text-sm 
       text-left 
-      text-gray-300 
+      text-gray-500 dark:text-gray-300
       font-medium 
       font-sans 
-      hover:text-white
+      hover:text-black dark:hover:text-white
     }
 
     .footerItem {
@@ -233,12 +240,11 @@ code {
       px-4 
       py-1 
       text-sm 
-      text-gray-300
+      text-gray-500 dark:text-gray-300
       text-left
       font-medium
       font-sans
-      hover:text-white
-      /* hover:bg-gradient-to-br from-indigo-50 to-transparent   */
+      hover:text-black dark:hover:text-white
     }
  
     .articleItem {
@@ -250,14 +256,16 @@ code {
       flex 
       flex-col
       bg-zinc-800
-      /* bg-zinck-900 */
-      /* border */
-      /* border-2 */
-      /* border-cyan-500 */
-      /* bg-gradient-to-br */
-      /* from-purple-500  */
-      /* to-purple-500  */
       rounded-md
+    }
+
+    .darkModeIcon {
+      @apply
+      h-4 
+      w-4
+      font-medium
+      text-gray-600 dark:text-gray-400
+      hover:text-black dark:hover:text-white
     }
 
 }

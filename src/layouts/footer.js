@@ -18,19 +18,19 @@ export default function Footer() {
 
                 <FooterItem 
                     href="https://www.linkedin.com/in/martin-dhoffschmidt/"
-                    icon={ <BsLinkedin className="text-lg text-gray-300 group-hover:text-white"/> }
+                    icon={ <BsLinkedin className="text-lg"/> }
                     text={ null }
                 />
 
                 <FooterItem 
                     href="https://github.com/mdhoffschmidt"
-                    icon={ <BsGithub className="text-lg text-gray-300 group-hover:text-white" /> }
+                    icon={ <BsGithub className="text-lg" /> }
                     text={ null }
                 />
 
                 <FooterItem 
                     href="https://twitter.com/mdhoffschmidt"
-                    icon={ <BsTwitter className="text-lg text-gray-300 group-hover:text-white" /> }
+                    icon={ <BsTwitter className="text-lg" /> }
                     text={ null }
                 />
 
