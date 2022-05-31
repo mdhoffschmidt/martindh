@@ -16,10 +16,10 @@ export default function Experiences () {
             <div flex flex-col justify-start items-start>
 
                 <ExperienceItem
-                    title="Entrepreneur in Residence"
-                    company="Otium"
-                    companyLink="https://www.otiumcapital.com/"
-                    period="Jun 2021 - Present"
+                    title="Co-founder, CTO"
+                    company="Formativ"
+                    companyLink="https://www.formativ.ai/"
+                    period="Jun 2021 - Jun 2022"
                     location="Paris, France"
                     description={ null }
                 />

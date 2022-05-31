@@ -19,7 +19,6 @@ export default function PublicationItem(props) {
             </p>
         </div>
     }
-
     
     return (
         <div 
@@ -36,7 +35,7 @@ export default function PublicationItem(props) {
                 <h5>
                     { props.authors }
                 </h5>
-                
+
                 <h5 className="italic">
                     { props.date }
                 </h5>
