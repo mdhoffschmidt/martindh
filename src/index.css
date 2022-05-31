@@ -1,21 +1,9 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-
-/* Tailwind imports */
 @tailwind base;
-
 
 @layer base {
 
@@ -25,6 +13,11 @@ code {
       bg-white dark:bg-gradient-to-b from-black to-zinc-900
       flex 
       flex-col
+    }
+
+    .textColor {
+      @apply
+      text-gray-700 dark:text-gray-300
     }
 
     header {
@@ -42,11 +35,12 @@ code {
       dark:bg-zinc-900
     }
 
+
     h1 {
       @apply
       my-8
       text-4xl
-      text-gray-700 dark:text-gray-200
+      textColor
       text-left
       font-semibold
       font-sans
@@ -56,7 +50,7 @@ code {
       @apply
       my-8
       text-2xl
-      text-gray-700 dark:text-gray-200
+      textColor
       text-left
       font-semibold
       font-sans
@@ -66,7 +60,7 @@ code {
       @apply
       my-4
       text-xl
-      text-gray-700 dark:text-gray-200 
+      textColor
       text-left 
       font-semibold 
       font-sans
@@ -74,9 +68,18 @@ code {
 
     h4 {
       @apply 
-      my-4
-      text-xl 
-      text-gray-700 dark:text-gray-200
+      my-1
+      text-lg
+      textColor
+      text-left
+      font-normal
+      font-sans
+    }
+
+    h5 {
+      @apply
+      text-sm 
+      textColor
       text-left
       font-normal
       font-sans
@@ -86,7 +89,7 @@ code {
       @apply 
       my-2 
       text-base 
-      text-gray-700 dark:text-gray-200
+      textColor
       text-justify 
       font-normal
       font-sans
@@ -97,7 +100,7 @@ code {
       mx-8
       my-2 
       text-base 
-      text-gray-700 dark:text-gray-200
+      textColor
       text-left 
       font-normal 
       font-sans 
@@ -110,7 +113,7 @@ code {
       my-2 
       text-base 
       text-left 
-      text-gray-700 dark:text-gray-200
+      textColor
       font-normal 
       font-sans 
       list-disc
@@ -119,31 +122,28 @@ code {
     li {
       @apply 
       text-base
+      textColor
     }
 
     table {
       @apply 
-      my-8 
-      border 
+      my-8
       border-2
-      border-zinc-900
+      border-zinc-200 dark:border-zinc-800
       rounded-lg
-      divide-y 
-      divide-zinc-900
-      /* overflow-hidden */
-      /* ring-2 */
-      /* ring-gray-100 */
+      divide-y
+      divide-zinc-200 dark:divide-zinc-800
     }
 
     thead {
       @apply 
-      bg-zinc-900
+      bg-zinc-200 dark:bg-zinc-800
     }
 
     tbody {
       @apply
       divide-y
-      divide-zinc-900
+      divide-zinc-200 dark:divide-zinc-800
     }
 
     th {
@@ -151,7 +151,7 @@ code {
       py-2 
       px-2 
       text-sm 
-      text-gray-700 dark:text-gray-300
+      text-gray-600 dark:text-gray-400
       text-center 
       font-semibold 
       align-bottom
@@ -162,7 +162,7 @@ code {
       py-2 
       px-2 
       text-sm 
-      text-gray-700 dark:text-gray-300
+      textColor
       text-left 
       font-normal 
       align-top
@@ -172,7 +172,7 @@ code {
       @apply 
       text-xs 
       text-left 
-      text-gray-700 dark:text-gray-300 
+      textColor
       font-normal
     }
 
@@ -200,16 +200,12 @@ code {
       px-6 
       py-1
       text-lg 
-      text-gray-700 dark:text-gray-300
+      textColor
       text-left 
       font-semibold 
       font-sans 
       rounded-lg 
       hover:text-white
-      /* bg-gradient-to-br  */
-      /* from-indigo-50  */
-      /* to-orange-50  */
-      /* hover:to-indigo-100  */
     }
 
     .navItem {
@@ -217,19 +213,18 @@ code {
       px-4 
       py-1 
       text-base 
-      text-gray-700 dark:text-gray-300
+      textColor
       text-left 
       font-medium 
       font-sans
       hover:text-black dark:hover:text-white
-      /* hover:bg-gradient-to-br from-indigo-50 to-transparent hover:text-black */
     }
     
     .footerCopyright {
       @apply 
       text-sm 
       text-left 
-      text-gray-500 dark:text-gray-300
+      textColor
       font-medium 
       font-sans 
       hover:text-black dark:hover:text-white
@@ -240,7 +235,7 @@ code {
       px-4 
       py-1 
       text-sm 
-      text-gray-500 dark:text-gray-300
+      textColor
       text-left
       font-medium
       font-sans
@@ -255,16 +250,15 @@ code {
       py-4 
       flex 
       flex-col
-      bg-zinc-800
+      bg-zinc-100 dark:bg-zinc-800
       rounded-md
     }
 
     .darkModeIcon {
       @apply
-      h-4 
-      w-4
-      font-medium
-      text-gray-600 dark:text-gray-400
+      h-5 
+      w-5
+      textColor
       hover:text-black dark:hover:text-white
     }
 

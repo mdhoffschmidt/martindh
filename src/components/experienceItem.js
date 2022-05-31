@@ -17,29 +17,29 @@ export default function ExperienceItem(props) {
     return (
         <div className="articleItem group" onClick={() => setOpen(!open)}>
             
-            <div className="my-2 flex flex-col justify-start items-start">
+            <div className="flex flex-col justify-start items-start">
                 
                 <a href={ props.companyLink } target="_blank" rel="noopener noreferrer">
-                    <div className="text-lg text-gray-300 font-medium group-hover:text-white group-hover:font-semibold">
+                    <h3 className="group-hover:text-black dark:group-hover:text-white group-hover:font-semibold">
                         { props.company }
-                    </div>
+                    </h3>
                 </a>
 
-                <div className="text-lg text-gray-300 font-semibold">
+                <h4>
                     { props.title }
-                </div>
+                </h4>
 
             </div>
 
             <div className="my-2 flex flex-row justify-between items-start">
                 
-                <div className="italic text-sm text-gray-300 font-medium">
+                <h5 className="italic font-medium">
                     { props.period }
-                </div>
+                </h5>
 
-                <div className="text-sm text-gray-300 font-medium">
+                <h5 className="font-medium">
                     { props.location }
-                </div>
+                </h5>
 
             </div>
 

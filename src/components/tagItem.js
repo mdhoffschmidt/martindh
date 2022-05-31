@@ -5,14 +5,13 @@ export default function TagItem(props) {
                 <div className="
                     px-2
                     py-1
-                    border
-                    border-gray-300
-                    rounded-lg
                     text-sm
-                    text-gray-300
+                    text-gray-700 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white
                     font-semibold
-                    group-hover:bg-zinc-900
-                    group-hover:text-white
+                    group-hover:bg-white dark:group-hover:bg-zinc-900
+                    border
+                    border-zinc-300 dark:border-gray-300
+                    rounded-lg             
                     "
                 >
                     { props.text }
@@ -25,13 +24,12 @@ export default function TagItem(props) {
                 px-2
                 py-1
                 text-sm
-                text-gray-300
+                text-gray-700 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white
                 font-semibold
+                group-hover:bg-white dark:group-hover:bg-zinc-900
                 border
-                border-gray-100
+                border-zinc-300 dark:border-gray-300
                 rounded-lg
-                group-hover:bg-zinc-900
-                group-hover:text-white
                 "
             >
                 { props.text }

@@ -1,44 +1,33 @@
 export default function AccomplishmentItem(props) {
     return (
         <div className="articleItem group">
-            
-            <div className="my-1 flex flex-col justify-start items-start">
                 
-                <a href={ props.titleLink } target="_blank" rel="noopener noreferrer">
-                    <div className="text-xl text-gray-300 font-semibold group-hover:text-white">
-                        { props.title }
-                    </div>
-                </a>
+            <a href={ props.titleLink } target="_blank" rel="noopener noreferrer">
+                <h3 className="group-hover:text-black dark:group-hover:text-white">
+                    { props.title }
+                </h3>
+            </a>
 
-            </div>
-
-            <div className="my-1 flex flex-row justify-between items-start">
                 
-                <div className="text-lg text-gray-300 font-medium">
-                    { props.university }
-                </div>
-
-            </div>
-
-            <div className="my-1 flex flex-row justify-between items-start">
+            <h4 className="font-medium">
+                { props.university }
+            </h4>
                 
-                <div className="italic text-sm text-gray-300 font-normal">
-                    { props.period }
-                </div>
-
-            </div>
+            <h5 className="italic">
+                { props.period }
+            </h5>
 
             <div className="my-1 flex flex-row justify-between items-start">
 
-                <div className="text-sm text-gray-300 font-medium group-hover:text-white">
+                <h5 className="group-hover:text-black dark:group-hover:text-white">
                     <a href={ props.certificateLink } target="_blank" rel="noopener noreferrer">
                         { props.certificate }
                     </a>
-                </div>
+                </h5>
 
-                <div className="text-sm text-gray-300 font-medium">
+                <h5>
                     { props.platform }
-                </div>
+                </h5>
 
             </div>
 

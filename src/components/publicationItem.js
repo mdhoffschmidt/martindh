@@ -26,24 +26,20 @@ export default function PublicationItem(props) {
             className="articleItem group" 
             onClick={() => setOpen(!open)}
         >
+    
+            <h3 className="group-hover:text-black dark:group-hover:text-white">
+                { props.title }
+            </h3>
 
-            <div className="my-2 flex flex-col justify-start items-start">
-                
-                <div className="text-xl text-gray-300 font-semibold group-hover:text-white">
-                    { props.title }
-                </div>
-                
-            </div>
+            <div className="my-2 flex flex-col justify-start items-start gap-2">
 
-            <div className="my-2 flex flex-col justify-start items-start text-gray-300">
-
-                <div>
+                <h5>
                     { props.authors }
-                </div>
-
-                <div className="italic">
+                </h5>
+                
+                <h5 className="italic">
                     { props.date }
-                </div>
+                </h5>
 
             </div>
 

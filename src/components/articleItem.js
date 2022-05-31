@@ -7,28 +7,18 @@ export default function ArticleItem(props) {
         <Link to={ props.href }>
             <div className="articleItem group">
                 
-                <div className="my-2 flex flex-col justify-start items-start">
-                    
-                    <div className="text-xl text-gray-300 font-semibold group-hover:text-white">
-                        { props.title }
-                    </div>
-                    
-                </div>
-
-                <div className="my-2 flex flex-row justify-between items-start">
-                    
-                    <div className="italic text-sm text-gray-300 font-normal">
-                        { props.date }
-                    </div>
-
-                </div>
-
-                <div>
-                    <p>
-                        { props.abstract }
-                    </p>
-                </div>
-
+                <h3 className="group-hover:text-black dark:group-hover:text-white">
+                    { props.title }
+                </h3>
+                
+                <h5 className="italic text-sm">
+                    { props.date }
+                </h5>
+                
+                <p>
+                    { props.abstract }
+                </p>
+                
                 <div className="my-2 flex flex-row justify-start items-center">
                     { props.tags.map((item, index) => {
                         return (
