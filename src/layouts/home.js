@@ -7,27 +7,23 @@ export default function Home() {
             </h1>
 
             <p>
-                I'am currently building a Web3 project with the aim to solve data quality issues in the Data Science Landscape.
-                On the one side, my past experience in Data Science and Data Engineering made me realize how important data quality is to successfuly apply AI in the real world.
-                On the other side, it is back in 2016 that I heard for the first time the word blockchain and have since then closely watched in space mature.
-                It is about time to make it work for real applications.
+                I am currently working on a Web3 project with the mission to empower creators.
+                The latest wave of innovation driven by the adoption of NFTs represents a unique opportunity to help build the internet of tomorrow.
+                I have been around the crypto space since 2017, watched it mature and I believe it's now about time to join the movement of builders.
             </p>
 
             <p>
-                Previously, I was Lead Data Sciencist at ILLUIN Technology, an AI start up based in Paris.
-                What we do the very best at ILLUIN is deploying Machine Learning models for the real world.
-                Apart from technical challenges, leading the data science team taught me important skills such as recruiting, business development and R&D Roadmap planing.
+                I have co-founded and run Formativ as CTO in 2021.
+                Our mission was to source ESG data in a transparent, traceable and systematic way to provide the highest data quality to our clients.
+                Previous to that, I was Lead Data Sciencist at Illuin Technology, an AI start up based in Paris who mission is to bridge the research & development world with real industrial use cases.
+                Finally, my first experience as an entrepreneur dates back to 2017 when, being still a student, I started building bots on crypto-currency exchanges. 
+                I later found my way building crypto market making bots to ensure sufficient liquidy on exchanges and collaborating with them.
             </p>
-
-            {/* <p>
-                Previously, I gained experience in the field of real time and distributed optimisation of energy systems working in collaboration with École Polytechnique Federale de Lausanne. 
-                I have also co-founded a Deep Learning based Crypto-currency fund to develop new approaches of algorithmic trading.
-            </p> */}
 
             <p>
                 I graduated with a Master Degree in Mechanical Engineering from École Polytechnique Fédérale de Lausanne with a major in Control Systems and Optimisation and a minor in Energy Engineering.
                 I accomplished my Master Thesis at UC Berkeley working on the implementation of Curiosity driven Agents applied to Autonomous Race Driving using Deep Learning.
-                It is there that I got addicted in building in understanding Neural Networks, building them from scratch in C to make them work in Micro Controlers.
+                It is there that I dit my first steps in Deep Learning, building Neural Network from scratch in C to make them work in Micro Controlers.
             </p>
 
         </div>
