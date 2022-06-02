@@ -9,9 +9,9 @@ code {
 
     .customBody {
       @apply 
-      min-h-screen 
+      min-h-screen
       bg-white dark:bg-gradient-to-b from-black to-zinc-900
-      flex 
+      flex
       flex-col
     }
 
@@ -25,7 +25,29 @@ code {
     }
 
     main {
-      @apply min-w-full flex-grow
+      @apply md:min-w-full flex-grow
+    }
+
+    .divHeader {
+      @apply 
+      mx-auto 
+      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg
+      mx-2 sm:mx-16
+    }
+
+    .divMain {
+      @apply 
+      mx-auto 
+      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg
+      mx-2 sm:mx-16
+      my-4 md:my-16
+    }
+
+    .divFooter {
+      @apply 
+      mx-auto
+      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg
+      mx-2 sm:mx-16
     }
 
     footer {
@@ -88,9 +110,9 @@ code {
     p {
       @apply 
       my-2 
-      text-base 
+      text-base
       textColor
-      text-justify 
+      text-left md:text-justify
       font-normal
       font-sans
     } 
@@ -176,28 +198,8 @@ code {
       font-normal
     }
 
-    .divHeader {
-      @apply 
-      mx-auto 
-      max-w-screen-lg
-    }
-
-    .divMain {
-      @apply 
-      mx-auto 
-      max-w-screen-md 
-      my-16
-    }
-
-    .divFooter {
-      @apply 
-      mx-auto 
-      max-w-screen-lg
-    }
-
     .navTitle {
-      @apply 
-      px-6 
+      @apply  
       py-1
       text-lg 
       textColor
@@ -212,10 +214,10 @@ code {
       @apply 
       px-4 
       py-1 
-      text-base 
+      text-base
       textColor
-      text-left 
-      font-medium 
+      text-left
+      font-medium
       font-sans
       hover:text-black dark:hover:text-white
     }
@@ -233,7 +235,7 @@ code {
     .footerItem {
       @apply 
       px-4 
-      py-1 
+      py-1
       text-sm 
       textColor
       text-left
@@ -241,14 +243,15 @@ code {
       font-sans
       hover:text-black dark:hover:text-white
     }
- 
+
     .articleItem {
       @apply
       my-4
-      pl-4 
-      pr-8 
-      py-4 
-      flex 
+      pl-4
+      pr-8
+      py-4
+      min-w-full
+      flex
       flex-col
       bg-zinc-100 dark:bg-zinc-800
       rounded-md
@@ -256,7 +259,7 @@ code {
 
     .darkModeIcon {
       @apply
-      h-5 
+      h-5
       w-5
       textColor
       hover:text-black dark:hover:text-white

@@ -14,7 +14,7 @@ export default function Footer() {
 
             </div>
 
-            <div className="flex flex-row justify-between items-center gap-4">
+            <div className="flex flex-row justify-between items-center">
 
                 <FooterItem 
                     href="https://www.linkedin.com/in/martin-dhoffschmidt/"

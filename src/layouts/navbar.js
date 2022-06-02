@@ -11,7 +11,7 @@ export default function Navbar() {
             
             <NavbarTitle title="Martin dH" />
 
-            <div className="flex flex-row justify between items-center gap-4">
+            <div className="flex flex-row justify between items-center gap-4 flex-wrap">
 
                 <NavbarLink 
                     href="/"

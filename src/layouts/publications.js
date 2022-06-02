@@ -3,7 +3,7 @@ import PublicationItem from "../components/publicationItem"
 
 export default function Publications() {
     return (
-        <div className="h-max">
+        <div>
 
             <div flex flex-col justify-start items-start>
 
