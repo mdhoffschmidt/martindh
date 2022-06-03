@@ -8,6 +8,7 @@ import Publications from "./layouts/publications";
 
 import Article1 from "./articles/article-1.js";
 import Article2 from "./articles/article-2.js";
+import Article3 from "./articles/article-3";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   const articles = <Articles/>;
   const article_1 = <Article1/>;
   const article_2 = <Article2/>;
+  const article_3 = <Article3/>
 
   const contact = <Contact/>;
   const experiences = <Experiences/>;
@@ -45,6 +47,10 @@ function App() {
             <Route
               element={<Page main={article_2}/>}
               path="/articles/article-2"
+            />
+            <Route
+              element={<Page main={article_3}/>}
+              path="/articles/article-3"
             />
 
           <Route 

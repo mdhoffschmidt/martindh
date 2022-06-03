@@ -11,6 +11,15 @@ export default function Articles () {
             <div flex flex-col justify-start items-start>
 
                 <ArticleItem
+                    href="/articles/article-3"
+                    title="Reviewing the State of Crypto 2022 by a16z"
+                    date="2022 May 30"
+                    abstract="
+                    "
+                    tags={["Blockchain"]}
+                />
+
+                <ArticleItem
                     href="/articles/article-2"
                     title="Data Challenges: Part 2"
                     date="2022 January 19"
