@@ -2,8 +2,8 @@
 import NavbarLink from "../components/navbarItem";
 import NavbarTitle from "../components/navbarTitle";
 import DarkModeButton from "../components/darkModeButton";
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Disclosure } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from "react-router-dom"
 
 
