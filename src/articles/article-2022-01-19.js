@@ -1,9 +1,26 @@
-export default function Article2 () {
+export const Meta = {
+    "date": new Date("2022", "01", "19"),
+    "tags": ["Data Science", "Data Quality"],
+    "title": "Data Challenges: Part 2",
+};
+
+export const Abstract = () => {
+    return (
+        <div>
+            Adopting a Data Centric approach to a Machine Learning project will probably leave you wondering what steps will lead you there.
+            Improving the data rather than the model seems quite obvious since everyone knows that the garbage in yields garbage out.
+            The previous article discussed the different challenges that must be overcome to reach Data Excellence.
+            The goal was to formalize what are the data challenges a Data Scientist might encounter and what impact they can have on a Machine Learning project.
+        </div>
+    );
+}
+
+export const Article = () => {
     return (
         <div>
 
             <h1> 
-                Data Challenges: Part 2
+                { Meta.title }
             </h1>
 
             <h2>
@@ -360,5 +377,5 @@ export default function Article2 () {
             </p>
 
         </div>
-    )
+    );
 }

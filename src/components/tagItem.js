@@ -3,6 +3,7 @@ export default function TagItem(props) {
         return (
             <a href={ props.href } target="_blank" rel="noopener noreferrer">
                 <div className="
+                    mx-1
                     px-2
                     py-1
                     text-sm
@@ -21,6 +22,7 @@ export default function TagItem(props) {
     } else {
         return (
             <div className="
+                mx-1
                 px-2
                 py-1
                 text-sm

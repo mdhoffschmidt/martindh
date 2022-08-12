@@ -6,20 +6,14 @@ import Home from "./layouts/home";
 import Page from "./layouts/page";
 import Publications from "./layouts/publications";
 
-import Article1 from "./articles/article-1.js";
-import Article2 from "./articles/article-2.js";
-import Article3 from "./articles/article-3";
-import Article4 from "./articles/article-4";
+import { listOfArticles } from "./articles/articles";
+
+
 
 
 function App() {
 
   const articles = <Articles/>;
-  const article_1 = <Article1/>;
-  const article_2 = <Article2/>;
-  const article_3 = <Article3/>;
-  const article_4 = <Article4/>;
-
   const contact = <Contact/>;
   const experiences = <Experiences/>;
   const home = <Home/>;
@@ -42,7 +36,18 @@ function App() {
             element={<Page main={articles}/>}
             path="/articles" 
           />
-            <Route
+
+          {
+            listOfArticles.map( (item, index) => {
+              let element = <Page main={ item.article() } />;
+              return <Route
+                element={ element } 
+                key={ index }
+                path={ item.path }
+              />
+            })
+          }
+            {/* <Route
               element={<Page main={article_1}/>}
               path="/articles/article-1" 
             />
@@ -58,6 +63,14 @@ function App() {
               element={<Page main={article_4}/>}
               path="/articles/article-4"
             />
+            <Route
+              element={<Page main={article_5}/>}
+              path="/articles/article-5"
+            />
+            <Route
+              element={<Page main={article_6}/>}
+              path="/articles/article-6"
+            /> */}
 
           <Route 
             element={<Page main={experiences}/>}

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import TagItem from "./tagItem";
 
 export default function ArticleItem(props) {
-
     return (
         <Link to={ props.href }>
             <div className="articleItem group">
