@@ -1,17 +1,17 @@
 export const Meta = {
     "date": new Date("2022", "07", "11"),
     "tags": ["Crypto Currencies", "Web3", "NFT"],
-    "title": "Free NFTs and The Bear Market",
+    "title": "Free NFTs fot the bear market",
 }
-
 
 export const Abstract = () => {
     return (
         <div>
             The Bear Market is perceived as positive for the Web3 ecosystem and especially for builders.
-            Successful companies have been built during the last Bear Market such as OpenSea and Dune Analytics.
+            Successful companies have been built during the last bear market.
+            Some successful examples are OpenSea and Dune.
             The present article is two fold.
-            First, it gives detailled overview of the NFT Market state in terms of transactions, traders and exchanged volumes with respect to the last year's situation as well as the peak period.
+            First, it gives an overview of the NFT Market state in terms of transactions, traders and exchanged volumes with respect to the last year's situation as well as the peak period.
             Second, it gives some examples supporting the fact that the Bear Market is an opportunity to build on free NFT use cases.
         </div>
     );
