@@ -1,5 +1,5 @@
 export const Meta = {
-    "date": new Date("2022", "07", "11"),
+    "date": new Date("2022-07-11"),
     "tags": ["Crypto Currencies", "Web3", "NFT"],
     "title": "Free NFTs fot the bear market",
 }
@@ -7,11 +7,11 @@ export const Meta = {
 export const Abstract = () => {
     return (
         <div>
-            The Bear Market is perceived as positive for the Web3 ecosystem and especially for builders.
-            Successful companies have been built during the last bear market.
+            The current Bear Market is often seen as positive for the Web3 ecosystem and especially by builders.
+            Successful companies have been built during the last one.
             Some successful examples are OpenSea and Dune.
-            The present article is two fold.
-            First, it gives an overview of the NFT Market state in terms of transactions, traders and exchanged volumes with respect to the last year's situation as well as the peak period.
+            The present article covers two aspects of the present market downturn. 
+            First, it gives a quantified overview of the NFT Market in terms of transactions, traders and exchanged volumes.
             Second, it gives some examples supporting the fact that the Bear Market is an opportunity to build on free NFT use cases.
         </div>
     );
@@ -26,16 +26,16 @@ export const Article = () => {
             </h1>
 
             <p>
-                Over the past few weeks I have encountered many people worried about the Bear Market, its impact on the crypto ecosystem and more specificaly on the NFT one.
-                The price of bitcoin fell indeed from $65,000 in November 2021 to $20,000 recently.
+                Over the past few weeks I have encountered many people worried about the Bear Market, its impact on the crypto ecosystem and more specificaly on NFT collections.
+                The price of Bitcoin fell indeed from $65,000 in November 2021 to $20,000 recently.
                 How bill the Bear Market affect the future of NFT collections ?
             </p>
 
             <p>
                 The present article gives some thoughts on the upside of the currrent situation.
                 Indeed, 2021 has been an incredible year, especially for the NFT space.
-                Most builders I have talked to recently support the fact that the current drop is highly positive for the space.
-                Before acknowledging the fact that Bear Market actually is an opportunity, let us first define what is a Bear market.
+                Most builders I have talked to recently support the fact that the current drop represents a great opportunity.
+                Before acknowleding that, let's first define what's a Bear market.
             </p>
 
             <h2>
@@ -43,9 +43,7 @@ export const Article = () => {
             </h2>
 
             <p>
-                <a href="https://www.investopedia.com/terms/b/bearmarket.asp">
-                    Simply stated, a Bear Market occurs when the market experiences a prolonged price decline.
-                </a>
+                Simply stated, a Bear Market occurs when <a href="https://www.investopedia.com/terms/b/bearmarket.asp"> the market experiences a prolonged price decline </a>.
                 Bitcoin experienced three previous Bear Markets. 
                 The first one in 2011, the second in 2015 and the third one in 2018. 
                 All of them where characterized with price plumeting 80% or more from their peak.
@@ -57,15 +55,15 @@ export const Article = () => {
                 OpenSea was created in december 2017, right before bitcoin hit its peak in January 2018.
                 OpenSea is valueded today at $13 billion.
                 An other example is Dune Analytics that hit the unicorn status earlier this year.
-                There were founded <a href="https://www.linkedin.com/company/dune-analytics/about/"> in 2018 </a>.
+                There were founded in <a href="https://www.linkedin.com/company/dune-analytics/about/"> 2018 </a>.
                 And there are other examples. 
-                The fact is that during downturns, builders get more time and focused on building.
+                The fact is that during downturns, builders get more time and focus on building.
             </p>
 
             <p>
                 Bear Markets are opportunities to build.
                 The question is, what are the next steps and what should be built ?
-                Before digging towards that direction, let's first understand how we got there and what happened over the past few months.
+                Before digging in that direction, let's first understand how we got there and what happened over the past few months.
             </p>
 
             <h2>
@@ -228,7 +226,7 @@ export const Article = () => {
             <p>
                 On a year to year basis, the monthly NFT exchanged volume increase by a factor of 5.
                 We went from $191 million being exchanged in June 2021 to above $1 billion being exchanged last month. 
-                However that this represents only 6% of the peak period that witnessed $17 billion in month exchanged volume.
+                This represents only 6% of the peak period that witnessed $17 billion in month exchanged volume.
             </p>
 
             <p>
@@ -244,11 +242,11 @@ export const Article = () => {
             </p>
 
             <p>
-                The current state of the market shows very clearly that the volume of exchanged assets has decreased.
-                A poplulation of active traders os nevertheless still active.
+                The current state of the market shows clearly that the volume of exchanged assets has decreased.
+                A poplulation of active traders is nevertheless still active.
                 Over the past year the NFT market went from a very niche state to a more mature state.
                 They now perform a steady number of transactions every month.
-                It will be interesting to watch if they remain active in the coming months.
+                The coming months will tell us if they remain active.
             </p>
 
             <h2>
@@ -256,28 +254,28 @@ export const Article = () => {
             </h2>
 
             <p>
-                On one side, due to the volume drops, the Bear Market will likely discourage newbies and current users that seek short term gains only.
-                Outside of the pure speculation driven collections, think of NFTs as digital identity, loyalty card, art, etc.
+                On one side, due to the volume drop, the Bear Market will likely discourage newbies and current users that seek only short term gains.
+                Apart from the speculation driven collections, think of NFTs as digital identity, loyalty card, art, etc.
                 Their true purpose is to provide a user with a unique experience.
-                Therefore, I think that an increasing number of users that will first ask themselve what utilities a specific NFT collections does provide before buying it.
+                Therefore, an increasing number of users will likely ask themselve what utilities a specific collection does provide. 
+                And they will do so before buying it.
+                The secondary market will be hit by utilities at some point.
             </p>
 
             <p>
                 On the otherside, a NFT collection must hold a certain floor to remain attractive.
                 Indeed, while many users will seek utilities behind NFTs the value of the asset reflects the quality of the community, the project and the team behind it.
                 Doing so, collections have to engage with their holders and community in various ways.
-                Therefore, many crypto native brands will engage their community in new and innovative ways.
+                Many crypto native brands are therefore expected to engage their community in new and innovative ways in the coming months.
             </p>
 
             <p>
-                Some popular brands like Bored Ape Yacht Club and Doodles started doing so recently.
-                A Bored Ape gives you for instance access to unique parties, as it was the case at NFT NYC recently.
+                Some popular brands like <a href="https://boredapeyachtclub.com/"> Bored Ape Yacht Club  </a> and <a href="https://doodles.app"> Doodles </a> started doing so recently.
+                A Bored Ape gives you for instance access to unique parties.
+                It was for example the case recently for NFT NYC.
                 They provide their users with unique and premium experiences.
-                <a href="https://nftevening.com/doodles-2-everything-about-the-new-doodles-nft-collection/">
-                    The Doodles have a different plan and want to reach a mass market by onboarding new users with millions of PFPs.
-                </a>
-                Their speculative utility for the end user will therefore be lower as there will be more. 
-                However, more people will have access to the brand.
+                <a href="https://nftevening.com/doodles-2-everything-about-the-new-doodles-nft-collection/"> The Doodles have a different plan and want to reach a mass market by onboarding new users with millions of PFPs. </a>
+                While their speculative utility for the end user will be lower as there will be more tokens more people will have access to the brand.
             </p>
 
             <h2>
@@ -287,10 +285,8 @@ export const Article = () => {
             <p>
                 Outside of the speculative use case, more and more use cases and being enabled through free NFTs.
                 For instance, you can now prove you friends you attended a particular event by acquiring a NFT that proves you attended that event or POAP.
-                <a href="https://dune.com/greywizard/sgc-work">
-                    The number of wallet holding a POAP has been steadily increasing over the past year to reach nearly 900,000 wallets.
-                </a>
-                People therefore don't sell their POAP and it is free to get.
+                The number of wallet holding a POAP has been steadily increasing over the past year to reach nearly <a href="https://dune.com/greywizard/sgc-work">900,000 wallets </a>.
+                People don't sell their POAP and it is free to get.
                 It provides a new way for users to tell a story and assess their digital identity.
                 In addition to that, SoulBound Tokens (SBT) have been introduced recently and start being used by some content creators such as podcasters to prove the content was listened to by the user.
                 The number of use cases around SBT, free to get, will increase over time as it will represent a new way to do advertisement in the Web3 spac.
@@ -298,20 +294,22 @@ export const Article = () => {
 
             <p>
                 For traditional brands entering the Web3 space, NFT represent a new way to engage their already existing customers.
-                Indeed, those identify themselves identifies themselves to the brand buying physical products in physical stores.
-                They have therefore not the problem that most crypto native collections had, i.e. building an audience.
+                For now, the customers identify themselves to the brand buying physical products in the physical stores.
+                Unlike crypto native collections, they have already an audience and a story.
                 However, they will face two challenges. 
-                The first one is about community and communication.
-                They will have a to learn from the well established and successful collections in the space to engage their audience in the right way.
-                Second, it is less likely that their collections will be designed for speculative purposes. 
+                The first one is about community.
+                They will have a to learn from the well established and successful collections in the space how to build a community and how to engage it in the right way.
+                Second, it is less likely that their collections will be designed for speculative purposes.
                 They will have to think about the utility behind it.
             </p>
 
             <p>    
                 My guess is that the brands will have to release free NFTs with strong utility attached to it to engage their audience meaningfuly.
                 Their customers are already paying physical products, sometimes at a high price, and there is no reason those will have to pay the price twice.
-                Releasing free NFTs will represent new and innovative way for them to adverstise their products.
-                The Bear Market represents therefire a unique opportunity for brands to work on their marketing and advertising strategies and build up on web3.
+                There remains of course a financial incentives for brands to release NFT collections.
+                On the secondary market they will benefit from royalties.
+                But more importantly, releasing free NFTs represents a new and innovative way for them to adverstise their products and reward their community members.
+                The Bear Market represents therefore a unique opportunity for brands to work on their marketing and advertising strategies and build up on web3.
             </p>
 
         </div>

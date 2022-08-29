@@ -20,7 +20,7 @@ function GetFormatedArticle(abstract, article, meta) {
 }
 
 export const listOfArticles = [
-    // GetFormatedArticle(Abstract5, Article5, Meta5),
+    GetFormatedArticle(Abstract5, Article5, Meta5),
     GetFormatedArticle(Abstract4, Article4, Meta4),
     GetFormatedArticle(Abstract3, Article3, Meta3),
     GetFormatedArticle(Abstract2, Article2, Meta2),

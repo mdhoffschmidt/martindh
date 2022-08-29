@@ -2,7 +2,7 @@ import file from "./markdown/article-2022-06-26.md";
 import useMarkdownFile from '../hooks/useMarkdownFile';
 
 export const Meta = {
-    "date": new Date("2022", "06", "26"),
+    "date": new Date("2022-06-26"),
     "tags": ["NFT", "Web3"],
     "title": "An overview of the NFT Market",
 };

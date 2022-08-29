@@ -1,5 +1,5 @@
 export const Meta = {
-    "date": new Date("2022", "01", "19"),
+    "date": new Date("2022-01-19"),
     "tags": ["Data Science", "Data Quality"],
     "title": "Data Challenges: Part 2",
 };
