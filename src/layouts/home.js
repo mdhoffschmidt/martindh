@@ -7,9 +7,10 @@ export default function Home() {
             </h1>
 
             <p>
-                I am currently working on a Web3 project with the mission to empower creators.
-                The latest wave of innovation driven by the adoption of NFTs represents a unique opportunity to help build the internet of tomorrow.
-                I have been around the crypto space since 2017, watched it mature and I believe it's now about time to join the movement of builders.
+                I am currently working on a Web3 project with the mission to bring NFT in the real world.
+                The latest wave of innovation in the NFT space was driven by speculation.
+                It's now time to make them useful to anyone holding them and drive mass adoption.
+                I have been around the crypto space since 2017, watched it mature and I believe it's the right moment to join the movement of builders, again.
             </p>
 
             <p>
