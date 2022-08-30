@@ -10,11 +10,11 @@ export default function ArticleItem(props) {
                     { props.title }
                 </h3>
                 
-                <h5 className="italic text-sm">
+                <h5 className="italic text-sm hover:no-underline">
                     { props.date }
                 </h5>
                 
-                <p>
+                <p className="hover:no-underline">
                     { props.abstract }
                 </p>
                 
