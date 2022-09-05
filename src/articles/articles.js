@@ -3,6 +3,7 @@ import { Article as Article2, Abstract as Abstract2, Meta as Meta2 } from "./art
 import { Article as Article3, Abstract as Abstract3, Meta as Meta3 } from "./article-2022-06-26";
 import { Article as Article4, Abstract as Abstract4, Meta as Meta4 } from "./article-2022-07-11";
 import { Article as Article5, Abstract as Abstract5, Meta as Meta5 } from "./article-2022-07-29";
+import { Article as Article6, Abstract as Abstract6, Meta as Meta6 } from "./article-2022-08-19";
 
 function GetFormatedArticle(abstract, article, meta) {
     const date = meta.date.toDateString();
@@ -20,6 +21,7 @@ function GetFormatedArticle(abstract, article, meta) {
 }
 
 export const listOfArticles = [
+    GetFormatedArticle(Abstract6, Article6, Meta6),
     GetFormatedArticle(Abstract5, Article5, Meta5),
     GetFormatedArticle(Abstract4, Article4, Meta4),
     GetFormatedArticle(Abstract3, Article3, Meta3),

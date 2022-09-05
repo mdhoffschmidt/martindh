@@ -23,12 +23,22 @@ code {
     header {
       @apply 
       min-w-full
+      mx-4
     }
 
     main {
       @apply 
-      md:min-w-full 
+      md:min-w-full
       flex-grow
+      mx-4
+    }
+
+    footer {
+      @apply 
+      min-w-full 
+      bg-white
+      dark:bg-zinc-900
+      mx-4
     }
 
     .divHeader {
@@ -49,14 +59,8 @@ code {
     .divFooter {
       @apply 
       mx-auto
+      mb-10
       max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md
-    }
-
-    footer {
-      @apply 
-      min-w-full 
-      bg-white
-      dark:bg-zinc-900
     }
 
     a {

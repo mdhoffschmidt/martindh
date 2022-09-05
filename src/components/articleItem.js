@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import TagItem from "./tagItem";
 
 export default function ArticleItem(props) {
+    let navigate = useNavigate();
     return (
-        <Link to={ props.href }>
+        <div onClick = {() => navigate(props.href)}>
+
             <div className="articleItem group">
                 
                 <h3 className="group-hover:text-black dark:group-hover:text-white">
@@ -27,6 +29,7 @@ export default function ArticleItem(props) {
                 </div>
 
             </div>
-        </Link>
+
+        </div>
     );
 }

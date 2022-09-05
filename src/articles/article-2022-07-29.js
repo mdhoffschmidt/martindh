@@ -11,9 +11,7 @@ export const Abstract = () => {
             Blockchain gives very transparent insights on wallet activities that help us understand who transacted how much to whom. 
             In the present article we try to understand how many are using NFTs. 
             Doing se we explore first how many active users there are in the crypto space today.
-            Second, we do the same for the NFT space. 
-            Finally, given predictions on the number of future crypto users we try to estimate how many will likely be using NFTs in the future.
-            Only time will tell if the present analysis is overestimating or not that number.
+            Second, we do the same for the NFT space and try to give more insight on the number of NFT users
         </div>
     );
 }
