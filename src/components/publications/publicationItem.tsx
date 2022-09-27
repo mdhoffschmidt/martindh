@@ -36,8 +36,8 @@ export const PublicationItem = (props: PropsPublicationItem) => {
                 pl-4 pr-8 py-4
                 flex flex-col
                 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700
-                rounded-lg
                 transition ease-in-out duration-100 hover:scale-105
+                rounded-lg
                 group
             " 
             onClick={() => setOpen(!open)}
