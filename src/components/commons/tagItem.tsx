@@ -1,4 +1,9 @@
-export default function TagItem(props) {
+export interface PropsTagItem {
+    href?: string;
+    text: string;
+}
+
+export const TagItem = (props: PropsTagItem) => {
     if (props.href) {
         return (
             <a href={ props.href } target="_blank" rel="noopener noreferrer">

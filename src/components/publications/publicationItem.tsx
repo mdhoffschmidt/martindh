@@ -1,8 +1,16 @@
 import { useState } from "react";
-import TagItem from "./tagItem";
+import { TagItem } from "../commons/tagItem";
 
 
-export default function PublicationItem(props) {
+export interface PropsPublicationItem {
+    authors: string;
+    date: string;
+    description?: string;
+    pdfLink?: string;
+    title: string;
+}
+
+export const PublicationItem = (props: PropsPublicationItem) => {
 
     const [open, setOpen] = useState(false) ;
 
@@ -22,7 +30,16 @@ export default function PublicationItem(props) {
     
     return (
         <div 
-            className="articleItem group" 
+            className="
+                w-full
+                my-4
+                pl-4 pr-8 py-4
+                flex flex-col
+                bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700
+                rounded-lg
+                transition ease-in-out duration-100 hover:scale-105
+                group
+            " 
             onClick={() => setOpen(!open)}
         >
     

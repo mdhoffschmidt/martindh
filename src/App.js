@@ -1,23 +1,15 @@
 import { Route, Routes, HashRouter } from "react-router-dom";
-import Articles from "./layouts/articles";
-import Contact from "./layouts/contact";
-import Experiences from "./layouts/experiences";
-import Home from "./layouts/home";
-import Page from "./layouts/page";
-import Publications from "./layouts/publications";
 
-import { listOfArticles } from "./articles/articles";
+import { Page } from "./components/commons/page";
 
-
+import { AccomplishmentPage } from "./components/accomplishments/accomplishmenPage";
+import { ArticlePage, listOfArticles } from "./components/articles/articlePage";
+import { ContactPage } from "./components/contact/contactPage";
+import { HomePage } from "./components/home/homePage";
+import { PublicationPage } from "./components/publications/publicationPage";
 
 
 function App() {
-
-  const articles = <Articles/>;
-  const contact = <Contact/>;
-  const experiences = <Experiences/>;
-  const home = <Home/>;
-  const publications = <Publications/>;
 
   return (
     <div className="App">
@@ -27,13 +19,13 @@ function App() {
         <Routes>
           
           <Route 
-            element={<Page main={home} />}
+            element={ <HomePage />}
             exact
             path="/" 
           />
           
           <Route
-            element={<Page main={articles}/>}
+            element={ <ArticlePage /> }
             path="/articles" 
           />
 
@@ -47,43 +39,19 @@ function App() {
               />
             })
           }
-            {/* <Route
-              element={<Page main={article_1}/>}
-              path="/articles/article-1" 
-            />
-            <Route
-              element={<Page main={article_2}/>}
-              path="/articles/article-2"
-            />
-            <Route
-              element={<Page main={article_3}/>}
-              path="/articles/article-3"
-            />
-            <Route
-              element={<Page main={article_4}/>}
-              path="/articles/article-4"
-            />
-            <Route
-              element={<Page main={article_5}/>}
-              path="/articles/article-5"
-            />
-            <Route
-              element={<Page main={article_6}/>}
-              path="/articles/article-6"
-            /> */}
-
+            
           <Route 
-            element={<Page main={experiences}/>}
+            element={ <AccomplishmentPage /> }
             path="/experiences" 
           />
 
           <Route 
-            element={<Page main={publications}/>}
+            element={ <PublicationPage /> }
             path="/publications" 
           />
       
           <Route
-            element={<Page main={contact}/>}
+            element={<ContactPage /> }
             path="/contact" 
           />
 

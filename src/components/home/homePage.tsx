@@ -1,4 +1,7 @@
-export default function Home() {
+import { Page } from "../commons/page";
+
+
+const Home = () => {
     return (
         <div>
 
@@ -29,4 +32,10 @@ export default function Home() {
 
         </div>
     )
+}
+
+export const HomePage = () => {
+    return (
+        <Page main={ <Home/> }/>
+    );
 }

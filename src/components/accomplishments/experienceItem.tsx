@@ -1,9 +1,18 @@
 import { useState } from "react";
 
 
-export default function ExperienceItem(props) {
+export interface PropsExperienceItem {
+    company: string;
+    companyLink?: string;
+    description?: string;
+    location: string;
+    period: string;
+    title: string;
+}
 
-    const [open, setOpen] = useState(false) ;
+export const ExperienceItem = (props: PropsExperienceItem) => {
+
+    const [open, setOpen] = useState(false);
 
     let description = null;
     if (props.description && open) {
@@ -15,7 +24,19 @@ export default function ExperienceItem(props) {
     }
 
     return (
-        <div className="articleItem group" onClick={() => setOpen(!open)}>
+        <div 
+            className="
+            w-full
+            my-4
+            pl-4 pr-8 py-4
+            flex flex-col
+            bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700
+            transition ease-in-out duration-100 hover:scale-105
+            rounded-lg
+            group
+            " 
+            onClick={() => setOpen(!open)}
+        >
             
             <div className="flex flex-col justify-start items-start">
                 

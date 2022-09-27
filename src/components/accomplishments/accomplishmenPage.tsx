@@ -1,8 +1,9 @@
-import AccomplishmentItem from "../components/accomplishmentItem";
-import ExperienceItem from "../components/experienceItem";
+import { Page } from "../commons/page";
+import { AccomplishmentItem } from "./accomplishmentItem";
+import { ExperienceItem } from "./experienceItem";
 
 
-export default function Experiences () {
+const Accomplishments = () => {
     return (
         <div>
             
@@ -14,15 +15,14 @@ export default function Experiences () {
                 Professional
             </h2>
 
-            <div flex flex-col justify-start items-start>
+            <div className="flex flex-col justify-start items-start">
 
                 <ExperienceItem
                     title="Entrepreneur in Residence"
                     company="Otium"
                     companyLink="https://www.otiumcapital.com"
                     period="Jun 2021 - now"
-                    location="Paris, France"
-                    description={ null }
+                    location="Paris, France"                    
                 />
 
                 <ExperienceItem
@@ -30,8 +30,7 @@ export default function Experiences () {
                     company="Formativ"
                     companyLink="https://www.formativ.ai/"
                     period="Jun 2021 - Jun 2022"
-                    location="Paris, France"
-                    description={ null }
+                    location="Paris, France"                    
                 />
 
                 <ExperienceItem
@@ -65,7 +64,7 @@ export default function Experiences () {
                 Academic
             </h2>
 
-            <div flex flex-col justify-start items-start>
+            <div className="flex flex-col justify-start items-start">
 
                 <ExperienceItem
                     title="Research Scientist"
@@ -126,7 +125,7 @@ export default function Experiences () {
                 Accomplishment
             </h2>
 
-            <div flex flex-col justify-start items-start>
+            <div className="flex flex-col justify-start items-start">
 
                 <AccomplishmentItem
                     title="Deep Learning Specialisation"
@@ -211,5 +210,11 @@ export default function Experiences () {
             </div>
 
         </div>
+    );
+}
+
+export const AccomplishmentPage = () => {
+    return (
+        <Page main={ <Accomplishments /> } />
     );
 }

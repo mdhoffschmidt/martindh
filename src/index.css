@@ -7,60 +7,9 @@ code {
 
 @layer base {
 
-    .customBody {
-      @apply 
-      min-h-screen
-      bg-white dark:bg-gradient-to-b from-black to-zinc-900
-      flex
-      flex-col
-    }
-
     .textColor {
       @apply
       text-gray-700 dark:text-gray-300
-    }
-
-    header {
-      @apply 
-      min-w-full
-      mx-4
-    }
-
-    main {
-      @apply 
-      md:min-w-full
-      flex-grow
-      mx-4
-    }
-
-    footer {
-      @apply 
-      min-w-full 
-      bg-white
-      dark:bg-zinc-900
-      mx-4
-    }
-
-    .divHeader {
-      @apply 
-      mx-auto 
-      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md
-      py-2
-      mt-4
-    }
-
-    .divMain {
-      @apply 
-      mx-auto 
-      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md
-      my-4 md:my-16
-    }
-
-    .divFooter {
-      @apply 
-      mx-auto
-      mb-10
-      max-w-screen-sm md:max-w-screen-md lg:max-w-screen-md
     }
 
     a {
@@ -116,6 +65,11 @@ code {
       text-left
       font-normal
       font-sans
+    }
+
+    div {
+      @apply
+      textColor
     }
     
     p {
@@ -228,52 +182,6 @@ code {
       text-left 
       textColor
       font-normal
-    }
-
-    .navTitle {
-      @apply  
-      py-1
-      text-lg 
-      textColor
-      text-left 
-      font-semibold 
-      font-sans 
-      rounded-lg 
-      hover:text-black dark:hover:text-white
-    }
-
-    .navItem {
-      @apply 
-      px-4 
-      py-1 
-      text-base
-      textColor
-      text-left
-      font-medium
-      font-sans
-      hover:text-black dark:hover:text-white
-    }
-    
-    .footerCopyright {
-      @apply 
-      text-sm 
-      text-left 
-      textColor
-      font-medium 
-      font-sans 
-      hover:text-black dark:hover:text-white
-    }
-
-    .footerItem {
-      @apply 
-      px-4 
-      py-1
-      text-sm 
-      textColor
-      text-left
-      font-medium
-      font-sans
-      hover:text-black dark:hover:text-white
     }
 
     .articleItem {

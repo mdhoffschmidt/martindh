@@ -1,4 +1,7 @@
-export default function Contact(props) {
+import { Page } from "../commons/page";
+
+
+export default function Contact() {
     return (
         <div>
 
@@ -12,4 +15,10 @@ export default function Contact(props) {
 
         </div>
     )
+}
+
+export const ContactPage = () => {
+    return (
+        <Page main={ <Contact /> }/>
+    );
 }

@@ -5,5 +5,5 @@ export default function HorizontalDivider() {
                 <div className="w-full border-t border-gray-100" />
             </div>
         </div>
-    )
+    );
 }
