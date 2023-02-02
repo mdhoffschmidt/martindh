@@ -31,11 +31,11 @@ export default function PageForArticle () {
                 OpenSea appears as the clear leader with a total of 140 million visits, i.e. 88% of it, followed by Foundation with 4% of the traffic.
             </p>
 
-            <table style={{ "min-width": "50em" }}>
+            <table>
                 
                 <thead>
                     <tr>
-                        <th colspan="2" className="text-center"> Platform </th>
+                        <th className="text-center" colSpan={2} > Platform </th>
                         <th> OpenSea </th>
                         <th> Rarible </th>
                         <th> SuperRare </th>
@@ -48,7 +48,7 @@ export default function PageForArticle () {
                 <tbody>
 
                     <tr>
-                        <td rowspan="6"> Traffic </td>
+                        <td rowSpan={6}> Traffic </td>
                         <td> May [million visits] </td>
                         <td> 60,41 </td>
                         <td> 1,87 </td>
@@ -123,11 +123,11 @@ export default function PageForArticle () {
                 On the other hand, Rarible and SuperRare attract most of their traffic from mobiles.
             </p>
 
-            <table style={{ "min-width": "50em" }}>
+            <table>
                 
                 <thead>
                     <tr>
-                        <th colspan="2" className="text-center"> Platform </th>
+                        <th colSpan={2} className="text-center"> Platform </th>
                         <th> OpenSea </th>
                         <th> Rarible </th>
                         <th> SuperRare </th>
@@ -140,7 +140,7 @@ export default function PageForArticle () {
                 <tbody>
 
                     <tr>
-                        <td rowspan="2"> Device </td>
+                        <td rowSpan={2}> Device </td>
                         <td className="font-bold"> Desktop [%] </td>
                         <td> 54,28 </td>
                         <td> 42,25 </td>
@@ -180,11 +180,11 @@ export default function PageForArticle () {
                 In total, 80% of traffic comes from users less than 45 years old.
             </p>
 
-            <table style={{ "min-width": "50em" }}>
+            <table>
                     
                 <thead>
                     <tr>
-                        <th colspan="2" className="text-center"> Platform </th>
+                        <th colSpan={2} className="text-center"> Platform </th>
                         <th> OpenSea </th>
                         <th> Rarible </th>
                         <th> SuperRare </th>
@@ -197,7 +197,7 @@ export default function PageForArticle () {
                 <tbody>
    
                     <tr>
-                        <td rowspan="2"> Gender </td>
+                        <td rowSpan={2}> Gender </td>
                         <td className="font-bold"> Male [%] </td>
                         <td> 70,17 </td>
                         <td> 64,13 </td>
@@ -219,7 +219,7 @@ export default function PageForArticle () {
 
 
                     <tr>
-                        <td rowspan="6"> Age </td>
+                        <td rowSpan={2}> Age </td>
                         <td> 18-24 [%] </td>
                         <td> 26,46 </td>
                         <td> 24,55 </td>
@@ -295,11 +295,11 @@ export default function PageForArticle () {
                 In the other hand, Rarible is the platform that benefits the least from Twitter but seems better able to take advantage from Youtube better than its competitors.
             </p>
 
-            <table style={{ "min-width": "50em" }}>
+            <table>
                     
                 <thead>
                     <tr>
-                        <th colspan="2" className="text-center"> Platform </th>
+                        <th colSpan={2} className="text-center"> Platform </th>
                         <th> OpenSea </th>
                         <th> Rarible </th>
                         <th> SuperRare </th>
@@ -312,7 +312,7 @@ export default function PageForArticle () {
                 <tbody>
 
                     <tr>
-                        <td rowspan="7"> Social Traffic </td>
+                        <td rowSpan={7}> Social Traffic </td>
                         <td className="font-bold"> Twitter [%] </td>
                         <td> 73,63</td>
                         <td> 54,95 </td>

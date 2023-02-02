@@ -137,7 +137,7 @@ export default function PageForArticle () {
 
             <p>
                 To have an estimate of the number of real NFT users, let's apply the same methodology.
-                First, let's find how many adresses have ever owned a NFT, i.e. how many disctinct addresses have transacted a NFT>
+                First, let's find how many adresses have ever owned a NFT, i.e. how many disctinct addresses have transacted a NFT.
                 Second, let's see how we can estimate the number of real users in the NFT Space.
                 For the sake of simplicity we will stick to Ethereum.
             </p>
