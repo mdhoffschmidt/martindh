@@ -164,8 +164,6 @@ export default function PageForArticle () {
             
             </table>
     
-
-
             <h2>
                 3. Gender and age
             </h2>
@@ -195,7 +193,6 @@ export default function PageForArticle () {
                 </thead>
     
                 <tbody>
-   
                     <tr>
                         <td rowSpan={2}> Gender </td>
                         <td className="font-bold"> Male [%] </td>
@@ -206,7 +203,6 @@ export default function PageForArticle () {
                         <td> 66,09 </td>
                         <td className="font-bold"> 69,66 </td>
                     </tr>
-
                     <tr>
                         <td> Female [%] </td>
                         <td> 29,83 </td>
@@ -216,10 +212,8 @@ export default function PageForArticle () {
                         <td> 33,91 </td>
                         <td> 30,34 </td>
                     </tr>
-
-
                     <tr>
-                        <td rowSpan={2}> Age </td>
+                        <td rowSpan={6}> Age </td>
                         <td> 18-24 [%] </td>
                         <td> 26,46 </td>
                         <td> 24,55 </td>
@@ -228,7 +222,6 @@ export default function PageForArticle () {
                         <td> 26,72 </td>
                         <td> 26,22 </td>
                     </tr>
-
                     <tr>
                         <td className="font-bold"> 25-34 [%] </td>
                         <td> 36,69 </td>
@@ -238,7 +231,6 @@ export default function PageForArticle () {
                         <td> 36,39 </td>
                         <td className="font-bold"> 36,67 </td>
                     </tr>
-
                     <tr>
                         <td> 35-44 [%] </td> 		
                         <td> 18,65 </td>
@@ -248,7 +240,6 @@ export default function PageForArticle () {
                         <td> 18,47 </td>
                         <td> 18,75 </td>
                     </tr>
-
                     <tr>
                         <td> 45-44 [%] </td>
                         <td> 9,52 </td>
@@ -258,7 +249,6 @@ export default function PageForArticle () {
                         <td> 9,61 </td>
                         <td> 9,60 </td>
                     </tr>
-
                     <tr>
                         <td> 55-64 [%] </td>
                         <td> 5,39 </td>
@@ -268,7 +258,6 @@ export default function PageForArticle () {
                         <td> 5,65 </td>
                         <td> 5,47 </td>
                     </tr>
-
                     <tr>
                         <td> 65 and more [%] </td>
                         <td> 3,29 </td>
@@ -278,9 +267,7 @@ export default function PageForArticle () {
                         <td> 3,15 </td>
                         <td> 3,29 </td>
                     </tr>
-
-                </tbody>
-            
+                </tbody>        
             </table>
         
             <h2>
@@ -399,6 +386,7 @@ export default function PageForArticle () {
                 Fourth, Desktop based traffic is leading over Mobile Web by 10%, i.e. 55% vs 45% respectively.
                 Finally, I hope these number will help you in your Web3 journey, let's see in December if the numbers have changed !
             </p>
+            
         </Page>
     );
 }
