@@ -1,10 +1,7 @@
-// import file from "./markdown.md";
 import { Page } from "../../../components/page";
-// import useMarkdownFile from "../../../hooks/useMarkdownFile";
 
 
-export default function PageForArticle () {
-    // const [ markdownComponent ] = useMarkdownFile(file);
+export default function PageForArticle () {    
     return (
         <Page>
 

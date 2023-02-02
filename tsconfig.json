@@ -28,9 +28,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",    
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
   ],
-, "app/articles/article-2022-06-26/page.jsx"  "exclude": [
-    "node_modules"
-  ]
+  "exclude": [ "node_modules" ]
 }
