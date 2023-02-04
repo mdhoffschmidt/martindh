@@ -29,7 +29,7 @@ export default function ExperiencePage() {
                     title="Co-founder, CTO"
                     company="Formativ"
                     companyLink="https://www.formativ.ai/"
-                    period="Jun 2021 - Jun 2022"
+                    period="Jun 2021 - Dec 2022"
                     location="Paris, France"                    
                 />
 
